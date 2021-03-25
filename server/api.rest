@@ -1,0 +1,29 @@
+###
+GET  http://localhost:4000/api/movies
+
+###
+POST   http://localhost:4000/api/movies
+Content-Type: application/json
+
+{
+    "titulo": "Harry Potter",
+    "calificacion": "6",
+    "pais": "USA"
+}
+
+
+###
+GET   http://localhost:4000/api/movies/605b6fb390aeb880f4c71882
+
+### 
+DELETE http://localhost:4000/api/movies/605b790890aeb880f4c71883
+
+###
+PUT    http://localhost:4000/api/movies/605b8c0d6b7d0581eca78a6d
+Content-Type: application/json
+
+{
+    "titulo": "Harry Potter 8",
+    "calificacion": "1",
+    "pais": "USA"
+}
